@@ -1,0 +1,68 @@
+Functions required to have fully operating application.
+
+START APPLICATION:
+- Start off with a small window that has:
+  - New game
+    - ask round robin or division
+    - display list of players / ability to add or remove
+    - this will allow you to add all the players (or read from a players.db file)
+    - when you build the team list, be sure to provide a method of changing which team they are on
+    - store all data in a sqlite3 database
+  - Open game
+    - if application crashes, allow the feature to reopen the databse so we dont lose anything
+  - Quit
+
+
+NEW GAME:
+- After you click NEW GAME - the following option menus appear:
+  - provide a list to be able to add/remove/or modify name
+  - randomize the teams or allow manual pairing of teammates
+  - dont forget to assign based off round robin or split divisions (provide option to choose which way to run)
+  - assign a team # to each player
+    - if its two divisions, split into A and B
+    - if its round robin, doesn't need to be labeled with A or B
+
+- After teams have been entered, and randomized or assigned manually;
+  - Generate all games based off of round robin or division
+    - if round robin, then everyone needs to play everyone else
+    - if divisions, then everyone will play each other once in their own division
+    - generate score cards + provide option to print to a printer (if enough time)
+
+- PLAY BEGINS
+  - begin playing horseshoes (nothing happens in the application, unless we want to track start and end times for
+    historical purposes.. probably a good feature to have to gain an average of how long a game takes)
+
+- WHEN A GAME FINISHES:
+  - provide an option in the unique identifier for the game
+    - who won
+    - who lost
+    - final score
+  - provide a separate table for ringers
+    - how many ringers each person had and which game number
+    - automatically sort list by highest ringers
+
+- PAYOUTS
+  - provide just a single box for how much it costs to enter the game ($20 ea person)
+  - provide just a single box for how much each ringers are ($10 ea person)
+  - provide an option to break it down for top two teams in the championship
+    - the option to break it down will include a percentage (80% to winner, 20% to losers for example)
+      - this can be modified
+  - do same thing for ringer payout
+    - allow for how many players can get paid out (1,2 or 3)
+    - allow the percentages to be changed for each place
+      - example: 2 players - 85% to 1st, 15% second
+      - example: 3 players - 70% 1st, 20% second, 10% third (allow to be changed)
+  - display payouts on a section or data point on the screen
+
+- DISPLAY
+- Standings will be displayed based off round robin or division games
+     -> need to have two tournament displays for rankings if there is  divisions A and division B
+
+- PLAYOFFS
+  - playoffs will be on the next screen (change the layout)
+  - need to find out how to determine how many teams get into the playoffs
+    - i suppose we could just allow the option to enter in how many teams to play
+    - provide the option
+
+
+
