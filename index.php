@@ -4,16 +4,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/fatloss/style.css">
-    <title>Weight Loss Competition - January 9th - April 3rd, 2022</title>
-    <link rel="icon" type="image/x-icon" href="/fatloss/favicon.ico">
-    <meta property="og:title" content="2022 Weight loss competition" />
-    <meta property="og:description" content="January 9th - April 3rd Weight loss journey for all!" />
-    <meta property="og:image" content="http://www.nonemoreplump.com/scale.jpg" />
+    <link rel="stylesheet" type="text/css" href="/horseshoes/css/mainStyles.css">
+    <title>2022 Horseshoe Tournament</title>
+    <link rel="icon" type="image/x-icon" href="/horseshoes/img/horseshoe.ico">
+    <script src="/horseshoes/js/mainJS.js" defer></script>
+    <meta property="og:title" content="Horseshoe Tournament 2022" />
+    <meta property="og:description" content="Backyard Horseshoe tournament generator/tracker." />
+    <meta property="og:image" content="" />
+
 
 </head>
-<body></body>
+<body>
+
+
+<h1>Horseshoe Tournament 2022</h1>
+<p>Select one</p>
+
+<div style="text-align:center">
+<button class="button button1" onClick="myFunction()">NEW</button>
+<button class="button button1">LOAD</button>
+</div>
 
 
 
+
+</body>
 </html>
