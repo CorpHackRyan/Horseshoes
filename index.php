@@ -16,17 +16,17 @@
 </head>
 <body>
 
-
 <h1>Horseshoe Tournament 2022</h1>
 <p>Select one</p>
 
 <div style="text-align:center">
-<button class="button button1" onClick="myFunction()">NEW</button>
+<button class="button button1" onClick="loadPlayers()">PLAYERS</button></br>
+<button class="button button1" onClick="myFunction()">NEW</button><br>
 <button class="button button1">LOAD</button>
+
 </div>
 
 
 
 
 </body>
-</html>
